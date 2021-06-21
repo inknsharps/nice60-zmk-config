@@ -56,11 +56,11 @@
 		
 		reset_layer {
 			bindings = <
-	&reset &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans         &bootloader
-	&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans &trans  &trans  &trans  &trans  &trans  &trans
-	&trans       &trans &trans &trans &trans &trans   &trans   &trans  &trans  &trans  &trans  &trans       &trans
-	&trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans
-	&trans     &trans     &trans                  &reset                     &trans     &trans     &trans   &trans
+	&reset &none &none &none &none &none &none &none &none &none &none &none &none         &bootloader
+	&none   &none  &none  &none  &none  &none  &none  &none &none  &none  &none  &none  &none  &none
+	&none       &none &none &none &none &none   &none   &none  &none  &none  &none  &none       &none
+	&none         &none  &none  &none  &none  &none  &none  &none  &none  &none  &none           &none
+	&none     &none     &none                  &reset                     &none     &none     &none   &none
 			>;
 		};
 	};
